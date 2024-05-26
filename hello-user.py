@@ -3,8 +3,5 @@
 #Ask user for their name
 name = input("What is your name?")
 
-#Print hello,
-print("hello, ")
-
-#Print name
-print (name)
+#Print hello, NAME
+print("hello, " + name)
