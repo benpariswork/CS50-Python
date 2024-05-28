@@ -1,3 +1,4 @@
+# copy of parity.py with pythonic example for parity function
 # test input to see if it is even or odd
 
 # define main function
@@ -12,9 +13,7 @@ def main():
 
 # custom function tests for parity
 def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
+    #return True if n % 2 == 0 else False
+    return n % 2 == 0
 
 main()
