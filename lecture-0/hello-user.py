@@ -9,14 +9,14 @@
 
 def main():
 
-    #output using custom function
+    # output using custom function
     name = input("What's your name? ").strip().title()
     hello(name)
 
-    #output with default 'to' variable
+    # output with default 'to' variable
     hello()
 
-#Custom function to say hello
+# Custom function to say hello
 def hello(to="world"):
     print("hello,", to)
 
